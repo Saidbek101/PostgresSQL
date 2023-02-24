@@ -1,6 +1,7 @@
 # TASK 1
+```sql
 SELECT * FROM categories
-
+```
 ![image](https://user-images.githubusercontent.com/122611553/221135750-1ecde4c9-95cf-4eab-aadf-cd9d327c0135.png)
 
 # TASK 2  
