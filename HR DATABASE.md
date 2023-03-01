@@ -1,7 +1,7 @@
 # TASK 1
 ```SQL
-SELECT E.first_name , E.last_name , 
-       E.department_id , D.department_name 
+SELECT E.first_name, E.last_name, 
+       E.department_id, D.department_name 
         FROM employees AS E 
          JOIN departments AS D 
           ON E.department_id = D.department_id
@@ -10,7 +10,7 @@ SELECT E.first_name , E.last_name ,
 
 # TASK 2
 ```SQL
-SELECT E.first_name , E.last_name , 
+SELECT E.first_name, E.last_name, 
        D.department_name, L.city, 
        L.state_province 
         FROM employees AS E 
@@ -34,8 +34,8 @@ SELECT E.first_name, E.last_name, E.salary,
 
 # TASK 4
 ```SQL
-SELECT E.first_name , E.last_name , 
-       E.department_id ,  D.department_name 
+SELECT E.first_name, E.last_name, 
+       E.department_id,  D.department_name 
          FROM employees AS E 
          JOIN departments AS D 
           ON E.department_id = D.department_id 
@@ -46,7 +46,7 @@ SELECT E.first_name , E.last_name ,
 
 # TASK 5
 ```SQL
-SELECT E.first_name,E.last_name,
+SELECT E.first_name, E.last_name,
    D.department_name, L.city, L.state_province
      FROM employees AS E 
       JOIN departments AS D  
@@ -88,7 +88,7 @@ SELECT E.first_name AS "Employee Name",
 
 # TASK 9
 ```SQL
-SELECT D.department_name , L.city , L.state_province
+SELECT D.department_name, L.city, L.state_province
   FROM  departments D 
     JOIN locations L 
       ON  D.location_id = L.location_id
