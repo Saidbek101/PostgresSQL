@@ -1,4 +1,4 @@
-# Departments
+# Departments 👨🏻‍💼
 ```sql
 create table if not exists Departments
 (
@@ -11,7 +11,7 @@ values('Civil Engineering', 'USA')
 ```
 ![image](https://user-images.githubusercontent.com/122611553/222645642-2071d8cf-3b39-49fb-b684-f2a2b3e44803.png)
 
-# Staff
+# Staff 👨‍🏫
 ```sql
 create table if not exists Staff
 (
@@ -31,7 +31,7 @@ values ('Sanjar', 'Sharipov', 'Sarvar075', 'Male', 991234567, '12/02/2004', 'Sof
 ```
 ![image](https://user-images.githubusercontent.com/122611553/222645764-c962cda5-f423-4fc1-9258-4e2506c864dc.png)
 
-# Teacher
+# Teacher 👨🏻‍🔬
 ```sql
 create table if not exists Teacher
 (
@@ -49,7 +49,7 @@ values ('Harry', 'Semon', 770140404, '08/08/1978', 'WIUT', 'Marketing', 'UK')
 ```
 ![image](https://user-images.githubusercontent.com/122611553/222645896-8453a597-d305-487d-813f-2b58267fd7bd.png)
 
-# Student
+# Student 👨🏻‍🎓
 ```sql
 create table if not exists Student
 (
@@ -69,7 +69,7 @@ values ('Saidbek', 'Saidmurodov', 'Saidbek101', 'Male', 'Tashkent', 770178008, '
 ```
 ![image](https://user-images.githubusercontent.com/122611553/222646032-a5faca8f-3d48-418f-884f-3a0b7ff82d88.png)
 
-# Region
+# Region 🇺🇿🇺🇸🇮🇹
 ```sql
 create table if not exists Region
 (
