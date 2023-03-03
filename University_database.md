@@ -69,7 +69,7 @@ values ('Saidbek', 'Saidmurodov', 'Saidbek101', 'Male', 'Tashkent', 770178008, '
 ```
 ![image](https://user-images.githubusercontent.com/122611553/222646032-a5faca8f-3d48-418f-884f-3a0b7ff82d88.png)
 
-# Region 🇺🇿🇺🇸🇮🇹
+# Region 🌍
 ```sql
 create table if not exists Region
 (
