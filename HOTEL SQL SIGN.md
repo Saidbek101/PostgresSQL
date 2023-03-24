@@ -91,19 +91,6 @@ CREATE TABLE reviews (
   rating INTEGER NOT NULL
 );
 
-CREATE TABLE guests (
-  guest_id SERIAL PRIMARY KEY,
-  first_name VARCHAR(50) NOT NULL,
-  last_name VARCHAR(50) NOT NULL,
-  email VARCHAR(255),
-  phone_number VARCHAR(20),
-  check_in_date DATE NOT NULL,
-  check_out_date DATE NOT NULL,
-  room_number INTEGER NOT NULL,
-  num_of_guests INTEGER NOT NULL,
-  payment_amount NUMERIC(10,2) NOT NULL
-);
-
 CREATE TABLE rooms (
   room_number SERIAL PRIMARY KEY,
   room_type VARCHAR(50) NOT NULL,
